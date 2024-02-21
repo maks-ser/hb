@@ -37,7 +37,7 @@
         return (l = pt(t, at)) && ie;
     }
     function L(t, e) {
-        return console.warn("Invalid property", t, "set to", e, "Missing plugin? gsap.registerPlugin()");
+        return console.log("");
     }
     function M(t, e) {
         return !e && console.warn(t);
